@@ -46,7 +46,7 @@ const Navbar = () => {
     <nav className="navbar" ref={navRef}>
       <div className="navbar-left">
         <a href="/" className="navbar-brand">
-          Your Name
+          Chris Mixa
         </a>
       </div>
       <div className="navbar-middle">
