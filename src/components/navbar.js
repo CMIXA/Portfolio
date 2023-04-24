@@ -74,7 +74,9 @@ function Navbar() {
           <div class="hamburger-menu-line"></div>
         </div>
         <div className="login-paid">
-          <button>Contact me</button>
+          <a href="/contact">
+            <button>Contact me</button>
+          </a>
         </div>
       </div>
     </nav>

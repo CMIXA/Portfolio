@@ -48,11 +48,12 @@
 }
 
 .login-paid button {
-  background: linear-gradient(
+  /* background: linear-gradient(
     99.49deg,
     #71788b 14.51%,
     rgba(48, 51, 59, 0.788) 77.41%
-  );
+  ); */
+  background: #6e657a;
   border-radius: 30px;
   border: #3d3d3d;
   font-size: 0.875rem;

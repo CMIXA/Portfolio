@@ -1,5 +1,121 @@
+/* .contact-page {
+  background: linear-gradient(180deg, #8e93c2 0%, #000000 100%);
+  min-height: 100vh;
+  overflow-y: auto;
+} */
+
+.contact-form-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
 .contact-page {
   background: linear-gradient(180deg, #8e93c2 0%, #000000 100%);
   min-height: 100vh;
   overflow-y: auto;
+}
+
+.f-name {
+  margin-right: 16px;
+}
+
+.fl-name {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/* form {
+  max-width: ;
+} */
+
+.form-title {
+  margin-bottom: 24px;
+}
+
+.form-title h1 {
+  margin-bottom: 16px;
+}
+
+.left-div {
+  flex: 1;
+}
+
+.left-div img {
+  max-width: 300px;
+  opacity: 50%;
+}
+
+.nav-space {
+  height: 96px;
+}
+
+.right-div {
+  flex: 1;
+  display: block;
+  text-align: left;
+}
+
+#div {
+  margin-bottom: 24px;
+}
+
+.right-div form div input,
+.right-div form div textarea {
+  width: 100%;
+}
+
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.384);
+  border: transparent;
+  border-radius: 5px;
+  /* height: 32px; */
+  margin-top: 4px;
+  padding: 8px 12px;
+}
+
+/* .form-container {
+  margin-top: 20px;
+}
+
+.form-container form {
+  display: grid;
+  gap: 10px;
+}
+
+.name-inputs {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+} */
+
+@media (max-width: 700px) {
+  .contact-form-container {
+    padding: 30px 20px;
+  }
+
+  .left-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 }
