@@ -1,7 +1,8 @@
 import React from "react";
+import "../css/contact.css";
 
 const Contactme = () => {
-  return <div>contact</div>;
+  return <div className="contact-page">portfolio</div>;
 };
 
 export default Contactme;

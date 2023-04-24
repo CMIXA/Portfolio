@@ -1,0 +1,65 @@
+button {
+  background: linear-gradient(
+    99.49deg,
+    #71788b 14.51%,
+    rgba(48, 51, 59, 0.788) 77.41%
+  );
+  border-radius: 30px;
+  border: #3d3d3d;
+  font-size: 0.875rem;
+  padding: 12px 24px;
+  margin-right: 16px;
+}
+
+.home-page {
+  background: linear-gradient(180deg, #8e93c2 0%, #000000 100%);
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.nav-space {
+  height: 96px;
+}
+
+.home-section {
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  padding: 80px 10px;
+}
+
+.left-div {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-div h1 {
+  margin-bottom: 16px;
+}
+
+.left-div p {
+  margin-bottom: 32px;
+}
+
+.right-div {
+  flex: 1;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  /* text-align: left; */
+}
+
+.right-div img {
+  width: 400px;
+  /* text-align: left; */
+}
+
+@media (max-width: 700px) {
+  .home-section {
+    padding: 30px 10px;
+    text-align: center;
+  }
+}
