@@ -61,7 +61,7 @@ function Navbar() {
         {/* <ul className="navlinks"> */}
         <ul className={`navlinks ${isMenuOpen ? "active" : ""}`}>
           <li class="navbar-item navbar-dropdown">
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li class="navbar-item">
             <a href="/portfolio">Portfolio</a>

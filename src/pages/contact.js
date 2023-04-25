@@ -1,15 +1,45 @@
 import React from "react";
 import "../css/contact.css";
-import cm from "../images/cm.png";
+import email from "../images/email.png";
+import location from "../images/location.png";
+import phone from "../images/phone.png";
 import cm1 from "../images/cm1.png";
 
 const Contact = () => {
   return (
     <div className="contact-page">
       <div className="nav-space"></div>
+      {/* <div className="contact-info2">
+        <div>
+          <img className="contact-icon" src={email} />
+          <p>cmixa8@gmail.com</p>
+        </div>
+        <div>
+          <img className="contact-icon" src={phone} />
+          <p>727-743-2397</p>
+        </div>
+        <div>
+          <img className="contact-icon" src={location} />
+          <p>St. Petersburg, FL</p>
+        </div>
+      </div> */}
       <div class="contact-form-container">
         <div className="left-div">
-          <img src={cm1} alt="Contact Image" />
+          <img className="contact-image" src={cm1} alt="initials" />
+          <div className="contact-info">
+            <div>
+              <img className="contact-icon" src={email} />
+              <p>cmixa8@gmail.com</p>
+            </div>
+            <div>
+              <img className="contact-icon" src={phone} />
+              <p>727-743-2397</p>
+            </div>
+            <div>
+              <img className="contact-icon" src={location} />
+              <p>St. Petersburg, FL</p>
+            </div>
+          </div>
         </div>
         <div className="right-div">
           <div className="form-title">

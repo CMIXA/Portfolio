@@ -18,8 +18,12 @@ const home = () => {
             effortless experiences
           </p>
           <div className="button-container">
-            <button>Learn more about me</button>
-            <button>Check out my work</button>
+            <a href="/">
+              <button>Learn more about me</button>
+            </a>
+            <a href="/portfolio">
+              <button>Check out my work</button>
+            </a>
             {/* <Button1 />
             <Button1 /> */}
           </div>
