@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/navbar.css";
+import gw from "../images/gw.png";
+import lw from "../images/lw.png";
 
 // import React, { useState, useRef, useEffect } from "react";
 // import "../css/navbar.css";
@@ -65,7 +67,12 @@ function Navbar() {
             <a href="/portfolio">Portfolio</a>
           </li>
           <li class="navbar-item">
-            <a href="/about">About</a>
+            <a
+              href="https://docs.google.com/document/d/13O8WuhT5zbAtkgIj-Jpm3L5ObLsV3egbYrUlHdlkb98/edit?usp=sharing"
+              target="/blank"
+            >
+              Resume
+            </a>
           </li>
         </ul>
         <div class="hamburger-menu" id="hamburgerMenu" onClick={toggleMenu}>
@@ -74,7 +81,17 @@ function Navbar() {
           <div class="hamburger-menu-line"></div>
         </div>
         <div className="login-paid">
-          <a href="/contact">
+          <a href="https://github.com/CMIXA" target="/blank">
+            <img className="social-media" src={gw} />
+          </a>
+          <a
+            id="right-link"
+            href="https://www.linkedin.com/in/christopher-mixa/"
+            target="/blank"
+          >
+            <img className="social-media" src={lw} />
+          </a>
+          <a id="right-link" href="/contact">
             <button>Contact me</button>
           </a>
         </div>

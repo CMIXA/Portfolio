@@ -80,6 +80,10 @@ textarea {
   padding: 8px 12px;
 }
 
+textarea {
+  min-height: 120px;
+}
+
 /* .form-container {
   margin-top: 20px;
 }

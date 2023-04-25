@@ -41,10 +41,10 @@
   display: flex;
 }
 
-.login-paid a {
-  font-size: 0.875rem;
-  margin-right: 32px;
-  text-decoration: none;
+#right-link {
+  /* font-size: 0.875rem; */
+  margin-left: 20px;
+  /* text-decoration: none; */
 }
 
 .login-paid button {
@@ -58,6 +58,10 @@
   border: #3d3d3d;
   font-size: 0.875rem;
   padding: 12px 24px;
+}
+
+.login-paid button:hover {
+  background: #9b8dad;
 }
 
 .nav {
@@ -144,6 +148,10 @@
   font-size: 1.5rem;
   font-weight: 300;
   text-decoration: none;
+}
+
+.social-media {
+  width: 20px;
 }
 
 .title-container {

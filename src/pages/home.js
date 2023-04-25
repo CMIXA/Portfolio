@@ -14,8 +14,8 @@ const home = () => {
           <h1>Hi, Im Chris</h1>
           <h1>UI/UX Designer & Dev</h1>
           <p>
-            UX Designer & Developer passionate about solving tech’s new
-            challenges and creating effortless experiences
+            Passionate about solving tech’s new challenges and creating
+            effortless experiences
           </p>
           <div className="button-container">
             <button>Learn more about me</button>
