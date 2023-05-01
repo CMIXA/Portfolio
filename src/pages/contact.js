@@ -49,29 +49,34 @@ const Contact = () => {
               you and exploring opportunities to work together!
             </p>
           </div>
-          <form>
+          <form action="https://formsubmit.co/cmixa8@gmail.com" method="POST">
             <div className="fl-name">
               <div className="f-name" id="div">
                 <label>First Name</label>
                 <br></br>
-                <input type="firstname" name="name"></input>
+                <input type="firstname" name="name" />
               </div>
               <div id="div">
                 <label>Last Name</label>
                 <br></br>
-                <input type="lastname" name="name"></input>
+                <input type="lastname" name="name" />
               </div>
             </div>
             <div id="div">
               <label>Email</label>
               <br></br>
-              <input type="email" name="email" />
+              <input type="email" name="email" required />
             </div>
             <div id="div">
               <label>Message</label>
               <br></br>
-              <textarea name="message"></textarea>
+              <textarea name="message" required />
             </div>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourdomain.co/thanks.html"
+            />
             <button type="submit">Send</button>
           </form>
         </div>
