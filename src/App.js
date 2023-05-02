@@ -8,7 +8,7 @@ import "./css/transitions.css";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import Portfolio from "./pages/portfolio";
+import Mywork from "./pages/mywork";
 // Project Pages
 import Omni from "./pages/omni";
 import VRL from "./pages/vrl";
@@ -29,19 +29,16 @@ function App() {
       </>
       <Transition>
         <Routes location={location}>
-          {/* Main Pages */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          {/* Main Pages */}
+          <Route path="/mywork" element={<Mywork />} />
           <Route path="/omni" element={<Omni />} />
           <Route path="/vrl" element={<VRL />} />
           <Route path="/mo" element={<MO />} />
           <Route path="/ii" element={<II />} />
           <Route path="/cu" element={<CU />} />
           <Route path="/p8" element={<P8 />} />
-          {/*  */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Transition>

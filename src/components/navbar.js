@@ -64,7 +64,7 @@ function Navbar() {
             <a href="/">Home</a>
           </li>
           <li class="navbar-item">
-            <a href="/portfolio">Portfolio</a>
+            <a href="/mywork">Portfolio</a>
           </li>
           <li class="navbar-item">
             <a
