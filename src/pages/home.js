@@ -1,8 +1,5 @@
 import React from "react";
 import "../css/home.css";
-import me from "../images/me.png";
-import me2 from "../images/me2.png";
-import me3 from "../images/me3.png";
 import me4 from "../images/me4.png";
 
 const home = () => {

@@ -3,9 +3,10 @@
   /* width: 500px; */
   width: 98%;
   height: 400px;
-  background-color: rgb(89, 136, 136);
-  /* background-image: url("your-image.jpg");
-  background-size: cover; */
+  /* background-color: rgb(89, 136, 136); */
+  /* background-image: url("Omni.png"); */
+  background-position: center;
+  background-size: cover;
   transition: filter 0.3s ease-in-out;
   cursor: pointer;
   margin: 8px;
