@@ -39,11 +39,18 @@
 .login-paid {
   align-items: center;
   display: flex;
+  text-align: right;
 }
 
 #right-link {
   /* font-size: 0.875rem; */
   margin-left: 20px;
+  /* text-decoration: none; */
+}
+
+#right-link button {
+  /* font-size: 0.875rem; */
+  margin-right: 0px;
   /* text-decoration: none; */
 }
 
@@ -128,6 +135,7 @@
   height: 100%;
   justify-content: center;
   list-style: none;
+  padding: 0;
 }
 
 .navlinks a {
@@ -158,6 +166,7 @@
   align-items: center;
   display: flex;
   text-decoration: none;
+  width: 180px;
 }
 
 /* H MENU */
@@ -223,12 +232,16 @@
 }
 
 /* Media query for hamburger menu */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .navlinks {
     display: none;
   }
 
   .hamburger-menu {
     display: block;
+  }
+
+  button {
+    margin-bottom: 0;
   }
 }
