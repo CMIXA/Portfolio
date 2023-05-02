@@ -10,6 +10,7 @@
   transition: filter 0.3s ease-in-out;
   cursor: pointer;
   margin: 8px;
+  border-radius: 5px;
 }
 
 .square:hover {
@@ -47,5 +48,6 @@
     display: block;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
   }
 }

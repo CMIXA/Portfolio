@@ -8,7 +8,7 @@ import MO from "../images/MO.png";
 import P8 from "../images/P8.png";
 import VR from "../images/VR.png";
 
-const portfolio = () => {
+const Portfolio = () => {
   return (
     <div className="portfolio-page">
       <div className="nav-space"></div>
@@ -25,24 +25,39 @@ const portfolio = () => {
         </div>
         <div className="portfolio-projects">
           <div className="portfolio-projects-row">
-            <Projectbox projectName="Omni Health App" backgroundImage={Omni} />
-            <Projectbox projectName="VR Live App" backgroundImage={VR} />
+            <Projectbox
+              projectName="Omni Health App"
+              backgroundImage={Omni}
+              linkAddress="/omni"
+            />
+            <Projectbox
+              projectName="VR Live App"
+              backgroundImage={VR}
+              linkAddress="/vrl"
+            />
           </div>
           <div className="portfolio-projects-row">
             <Projectbox
               projectName="Mixa Orthopedics Responsive Website"
               backgroundImage={MO}
+              linkAddress="/mo"
             />
-            <Projectbox projectName="Immersive Insights" backgroundImage={II} />
+            <Projectbox
+              projectName="Immersive Insights"
+              backgroundImage={II}
+              linkAddress="/ii"
+            />
           </div>
           <div className="portfolio-projects-row">
             <Projectbox
               projectName="CommUnity Landing Page"
               backgroundImage={CU}
+              linkAddress="/cu"
             />
             <Projectbox
               projectName="ProjectM8te Dashboard"
               backgroundImage={P8}
+              linkAddress="/p8"
             />
           </div>
         </div>
@@ -51,4 +66,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default Portfolio;
