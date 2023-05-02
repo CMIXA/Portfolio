@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/portfolio.css";
+import Projectbox from "../components/projectbox";
 
 const portfolio = () => {
   return (
@@ -13,25 +14,25 @@ const portfolio = () => {
             tristique eros. Vestibulum pulvinar gravida tincidunt. Nullam vel
             ligula ut augue accumsan dignissim. Cras ut quam vestibulum,
             suscipit lacus at, venenatis tellus. Nam a libero vitae tellus
-            venenatis bibendum.{" "}
+            venenatis bibendum.
           </p>
         </div>
-        <div>
-          <div>
-            <div></div>
-            <div></div>
+        <div className="portfolio-projects">
+          <div className="portfolio-projects-row">
+            <Projectbox projectName="Omni Health App" />
+            <Projectbox projectName="VR Live App" />
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="portfolio-projects-row">
+            <Projectbox projectName="Mixa Orthopedics Responsive Website" />
+            <Projectbox projectName="Immersive Insights" />
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="portfolio-projects-row">
+            <Projectbox projectName="CommUnity Landing Page" />
+            <Projectbox projectName="ProjectM8te Dashboard" />
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="portfolio-projects-row">
+            <Projectbox projectName="hahahahah" />
+            <Projectbox projectName="hahahahah" />
           </div>
         </div>
       </div>

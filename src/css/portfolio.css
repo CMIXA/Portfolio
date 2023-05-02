@@ -2,10 +2,29 @@
   height: 96px;
 }
 
+.portfolio-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .portfolio-page {
   background: linear-gradient(180deg, #8e93c2 0%, #000000 100%);
   min-height: 100vh;
   overflow-y: auto;
+}
+
+.portfolio-projects {
+  margin: 0 auto;
+  text-align: center;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+.portfolio-projects-row {
+  display: flex;
 }
 
 .portfolio-text {
@@ -19,3 +38,5 @@
 .portfolio-text h1 {
   margin-bottom: 16px;
 }
+
+/*  */
