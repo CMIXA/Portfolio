@@ -16,15 +16,20 @@
 .portfolio-projects {
   margin: 0 auto;
   text-align: center;
-
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
+  padding: 0 32px;
+  width: 100%;
 }
+
+/* .portfolio-projects .div {
+  margin: 0 auto;
+  text-align: center;
+} */
 
 .portfolio-projects-row {
   display: flex;
+  align-self: center;
+  justify-content: center;
+  /* width: 100%; */
 }
 
 .portfolio-text {
