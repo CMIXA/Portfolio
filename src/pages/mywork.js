@@ -14,7 +14,7 @@ const Mywork = () => {
       <div className="nav-space"></div>
       <div className="portfolio-container">
         <div className="portfolio-text">
-          <h1>My Work</h1>
+          <h1>My Portfolio</h1>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non
             tristique eros. Vestibulum pulvinar gravida tincidunt. Nullam vel

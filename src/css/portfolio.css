@@ -8,7 +8,8 @@
 }
 
 .portfolio-page {
-  background: linear-gradient(180deg, #8e93c2 0%, #000000 100%);
+  /* background: linear-gradient(180deg, #8e93c2 0%, #000000 100%); */
+  background: linear-gradient(180deg, #3c3f61 0%, #e6e6e6 100%);
   min-height: 100vh;
   overflow-y: auto;
 }

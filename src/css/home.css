@@ -1,9 +1,4 @@
 button {
-  /* background: linear-gradient(
-    99.49deg,
-    #71788b 14.51%,
-    rgba(223, 223, 223, 0.788) 77.41%
-  ); */
   background: linear-gradient(
     99.49deg,
     #32353a 14.51%,
@@ -62,17 +57,21 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 0 auto;
-  text-align: center; */
-  /* text-align: left; */
 }
 
 .h-right-div img {
   width: 400px;
-  /* text-align: left; */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+  .home-section {
+    padding: 30px 10px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
   button {
     margin-bottom: 16px;
   }
@@ -84,6 +83,5 @@ button:hover {
 
   .h-right-div img {
     width: 300px;
-    /* text-align: left; */
   }
 }
