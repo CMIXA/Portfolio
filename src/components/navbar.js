@@ -60,6 +60,7 @@ function Navbar() {
         </div>
         {/* <ul className="navlinks"> */}
         <ul className={`navlinks ${isMenuOpen ? "active" : ""}`}>
+          {/* <ul className={`navlinks ${isMenuOpen ? "active" : ""}`}> */}
           <li class="navbar-item navbar-dropdown">
             <a href="/">Home</a>
           </li>
