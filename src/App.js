@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation, Link, Navigate } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import "./App.css";
 import Transition from "./components/Transition";
 import Navbar from "./components/navbar";
@@ -16,8 +16,6 @@ import MO from "./pages/mo";
 import II from "./pages/ii";
 import CU from "./pages/cu";
 import P8 from "./pages/p8";
-
-// import { Switch, Route, useLocation } from 'react-router-dom';
 
 function App() {
   const location = useLocation();
