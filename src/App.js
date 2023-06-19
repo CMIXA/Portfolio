@@ -32,13 +32,14 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/mywork" element={<Mywork />} />
-          <Route path="/omni" element={<Omni />} />
-          <Route path="/vrl" element={<VRL />} />
-          <Route path="/mo" element={<MO />} />
-          <Route path="/ii" element={<II />} />
-          <Route path="/cu" element={<CU />} />
-          <Route path="/p8" element={<P8 />} />
+          <Route path="/mywork" element={<Mywork />}>
+            <Route path="omni" element={<Omni />} />
+            <Route path="vrl" element={<VRL />} />
+            <Route path="mo" element={<MO />} />
+            <Route path="ii" element={<II />} />
+            <Route path="cu" element={<CU />} />
+            <Route path="p8" element={<P8 />} />
+          </Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Transition>
